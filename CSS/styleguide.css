@@ -1,0 +1,149 @@
+/* 
+VARIABLES DE TIPOGRAFIAS Y COLORES
+
+Este archivo CSS contiene las variables personalizadas utilizadas para definir la tipografía y la paleta de colores en la aplicación Superinvent.Las variables 
+
+*/
+
+:root {
+                /*--- TIPOGRAFIA ---*/
+    /* h1 */
+    --heading-h1-font-family: "Rota", Helvetica;
+    --heading-h1-font-weight: 700;
+    --heading-h1-font-size: 56px;
+    --heading-h1-letter-spacing: 0px;
+    --heading-h1-line-height: 139.9999976158142%;
+    --heading-h1-font-style: normal;
+    
+    /* h2 */
+    --heading-h2-font-family: "Rota", Helvetica;
+    --heading-h2-font-weight: 700;
+    --heading-h2-font-size: 48px;
+    --heading-h2-letter-spacing: 0px;
+    --heading-h2-line-height: 139.9999976158142%;
+    --heading-h2-font-style: normal;
+    
+    /* h3 */
+    --heading-h3-font-family: "Rota", Helvetica;
+    --heading-h3-font-weight: 700;
+    --heading-h3-font-size: 40px;
+    --heading-h3-letter-spacing: 0px;
+    --heading-h3-line-height: 139.9999976158142%;
+    --heading-h3-font-style: normal;
+
+    /* h4 */
+    --heading-h4-font-family: "Rota", Helvetica;
+    --heading-h4-font-weight: 700;
+    --heading-h4-font-size: 32px;
+    --heading-h4-letter-spacing: 0px;
+    --heading-h4-line-height: 139.9999976158142%;
+    --heading-h4-font-style: normal;
+
+    /* bigger / regular */
+    --body-bigger-regular-font-family: "Manrope", Helvetica;
+    --body-bigger-regular-font-weight: 400;
+    --body-bigger-regular-font-size: 20px;
+    --body-bigger-regular-letter-spacing: 0px;
+    --body-bigger-regular-line-height: 150%;
+    --body-bigger-regular-font-style: normal;
+
+    /* bigger / semibold */
+    --body-bigger-semibold-font-family: "Manrope", Helvetica;
+    --body-bigger-semibold-font-weight: 600;
+    --body-bigger-semibold-font-size: 20px;
+    --body-bigger-semibold-letter-spacing: 0px;
+    --body-bigger-semibold-line-height: 150%;
+    --body-bigger-semibold-font-style: normal;
+
+    /* normal / regular */
+    --body-normal-regular-font-family: "Manrope", Helvetica;
+    --body-normal-regular-font-weight: 400;
+    --body-normal-regular-font-size: 16px;
+    --body-normal-regular-letter-spacing: 0px;
+    --body-normal-regular-line-height: 150%;
+    --body-normal-regular-font-style: normal;
+
+    /* normal / semibold */
+    --body-normal-semibold-font-family: "Manrope", Helvetica;
+    --body-normal-semibold-font-weight: 600;
+    --body-normal-semibold-font-size: 16px;
+    --body-normal-semibold-letter-spacing: 0px;
+    --body-normal-semibold-line-height: 150%;
+    --body-normal-semibold-font-style: normal;
+
+    /* small / regular */
+    --body-small-regular-font-family: "Manrope", Helvetica;
+    --body-small-regular-font-weight: 400;
+    --body-small-regular-font-size: 14px;
+    --body-small-regular-letter-spacing: 0px;
+    --body-small-regular-line-height: 150%;
+    --body-small-regular-font-style: normal;
+
+    /* small / semibold */
+    --body-small-semibold-font-family: "Manrope", Helvetica;
+    --body-small-semibold-font-weight: 600;
+    --body-small-semibold-font-size: 14px;
+    --body-small-semibold-letter-spacing: 0px;
+    --body-small-semibold-line-height: 150%;
+    --body-small-semibold-font-style: normal;
+
+    /* smaller / regular */
+    --body-smaller-regular-font-family: "Manrope", Helvetica;
+    --body-smaller-regular-font-weight: 400;
+    --body-smaller-regular-font-size: 12px;
+    --body-smaller-regular-letter-spacing: 0px;
+    --body-smaller-regular-line-height: 150%;
+    --body-smaller-regular-font-style: normal;
+    
+    /* smaller / semibold */
+    --body-smaller-semibold-font-family: "Manrope", Helvetica;
+    --body-smaller-semibold-font-weight: 600;
+    --body-smaller-semibold-font-size: 12px;
+    --body-smaller-semibold-letter-spacing: 0px;
+    --body-smaller-semibold-line-height: 150%;
+    --body-smaller-semibold-font-style: normal;
+
+
+                /*--- Colores ---*/    
+    /*primary*/
+    --primitive-primary-400: rgba(71, 137, 235, 1);
+    --primitive-primary-500: rgba(26, 107, 229, 1);
+    --primitive-primary-600: rgba(20, 86, 184, 1);
+    
+    /*neutral*/
+    --primitive-neutral-BG: rgba(247, 249, 249, 1);
+    --primitive-neutral-BG-alt: rgba(240, 242, 243, 1);
+    --primitive-neutral-border: rgba(224, 230, 235, 1);
+    --primitive-neutral-text-lighter: rgba(169, 182, 188, 1);
+    --primitive-neutral-text-light: rgba(141, 157, 165, 1);
+    --primitive-neutral-text-normal: rgba(112, 132, 143, 1);
+    --primitive-neutral-title: rgba(45, 69, 83, 1);
+
+    /*info*/
+    --primitive-info-400: rgba(68, 230, 125, 1);
+    --primitive-info-500: rgba(30, 215, 96, 1);
+    --primitive-info-600: rgba(24, 172, 76, 1);
+    
+    /*warning*/
+    --primitive-warning-400: rgba(255, 181, 84, 1);
+    --primitive-warning-500: rgba(255, 164, 43, 1);
+    --primitive-warning-600: rgba(237, 134, 0, 1);
+    
+    /*error*/
+    --primitive-error-400: rgba(239, 67, 84, 1);
+    --primitive-error-500: rgba(233, 20, 41, 1);
+    --primitive-error-600: rgba(188, 16, 33, 1);
+
+    /*black & white*/
+    --primitive-b-w-white: rgba(255, 255, 255, 1);
+    --primitive-b-w-black: rgba(18, 27, 33, 1);
+
+    
+                /*--- Dimensiones y Bordes ---*/
+    --primitive-border: 4px;
+    --primitive-size-icon: 16px;
+    --primitive-form-16: 16px;
+    --primitive-form-4: 4px;
+    --primitive-form-12: 12px;
+    --primitive-bordes-8: 8px;
+}
