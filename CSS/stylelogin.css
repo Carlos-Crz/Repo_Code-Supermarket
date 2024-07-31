@@ -114,3 +114,15 @@ body {
     margin-top: 48px;
     cursor: pointer;
 }
+
+/* MESSAGE ERROR */
+.error-message {
+    background-color: var(--primitive-error-400);
+    color: var(--primitive-b-w-white);
+    border-radius: var(--primitive-bordes-8);
+    padding: 12px;
+    margin-bottom: 16px;
+    text-align: center;
+    font-family: var(--body-normal-regular-font-family);
+    font-weight: var(--body-normal-semibold-font-weight);
+}
